@@ -1,0 +1,16 @@
+.destacados {
+    font-size: 30px;
+    color: #1f1106;
+    padding-left: 2.5%;
+    background-image: linear-gradient(to right, #b3916e, #f7ede1);
+    margin: 25px 0px 10px 0px;
+    font-weight: 100;
+
+    .linea-excellent {
+        width: 95%;
+        margin: auto;
+        box-shadow: 10px 10px 8px 0px #1f1106be;
+        -webkit-box-shadow: 10px 10px 8px 0px #1f1106be;
+        -moz-box-shadow: 10px 10px 8px 0px #1f1106be;
+    }
+}

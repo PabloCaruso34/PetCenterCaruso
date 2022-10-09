@@ -1,0 +1,52 @@
+section {
+    .container {
+        .row {
+            display: flex;
+            justify-content: center;
+
+            .tarjeta-card {
+                width: 300px;
+                height: 400px;
+                margin: 15px;
+
+                .pie-tarjeta {
+                    width: 300px;
+                    height: 120px;
+                    background-color: #b3916eda;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 10px;
+                    align-items: center;
+                }
+
+                img {
+                    width: 300px;
+                }
+
+                h2 {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: #1f1106
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #1f1106;
+                    background-color: #f7ede1;
+                    border: #1f1106 1px solid;
+                    padding: 5px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+
+                    &:hover {
+                        color: #f7ede1;
+                        border-bottom: #f7ede1 3px solid;
+                        border-right: #f7ede1 3px solid;
+                        background-color: #1f1106;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.accordion-button {
+    color: #1f1106;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #b3916e;
+
+    &:not(.collapsed) {
+        color: #1f1106;
+        background-color: #f7ede1;
+    }
+
+    &:focus {
+        box-shadow: #1f1106ae;
+        border-color: #1f1106;
+    }
+}
+
+.accordion-body {
+    color: #1f1106;
+    background-color: #f7ede1;
+}
+
+.nosotros-fotos {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        margin: 20px;
+        border: 4px solid #1f1106;
+        border-radius: 15px;
+    }
+}

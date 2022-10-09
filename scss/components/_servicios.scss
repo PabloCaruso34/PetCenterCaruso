@@ -1,0 +1,27 @@
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    .servicios-prestados {
+        display: flex;
+        flex-direction: column;
+        margin-inline: 10px;
+        width: 30%;
+        text-align: center;
+        border: 5px solid #1f1106;
+        border-radius: 10px 0px 10px 0px;
+        color: #f7ede1;
+        background-color: #1f1106;
+
+        img {
+            border-radius: 5px 0px 0px 0px;
+        }
+
+        .pie-servicios {
+            h4 {
+                margin-top: 10px;
+            }
+        }
+    }
+}
